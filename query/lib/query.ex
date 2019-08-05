@@ -11,7 +11,7 @@ defmodule Query do
   def decode(body) do
     {body} = body
 
-    Poison.decode(body, as: %name{repo: repo})
+    Poison.decode(body, keys: :atoms)
   end
 
   def request(url) do
