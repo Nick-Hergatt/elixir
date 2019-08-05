@@ -22,7 +22,7 @@ defmodule Query.MixProject do
   def deps do
     [
       {:httpoison, "~> 1.4.0"},
-      {:poison, "~> 3.1"}
+      {:poison, "~> 3.1"},
     ]
   end
 end
